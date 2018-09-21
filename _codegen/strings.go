@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-2017, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -24,9 +29,10 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/corestoreio/pkg/util"
 	"github.com/corestoreio/errors"
 	"github.com/corestoreio/log"
+
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util"
 )
 
 var (
@@ -181,8 +187,8 @@ func extractSplit(s string) (path string, tp []string, hasVersion bool, _ error)
 
 // ExtractImportPath extracts from an extended import path with a function or type call
 // the import path.
-// github.com/corestoreio/pkg/customer.Customer() would become
-// github.com/corestoreio/pkg/customer
+// github.com/sniperkit/snk.fork.corestoreio-pkg/customer.Customer() would become
+// github.com/sniperkit/snk.fork.corestoreio-pkg/customer
 func ExtractImportPath(s string) (string, error) {
 
 	if s == "" {
@@ -203,7 +209,7 @@ func ExtractImportPath(s string) (string, error) {
 
 // ExtractFuncType extracts from an extended import path with a function or type call
 // the function or type call.
-// github.com/corestoreio/pkg/customer.Customer() would become customer.Customer()
+// github.com/sniperkit/snk.fork.corestoreio-pkg/customer.Customer() would become customer.Customer()
 func ExtractFuncType(s string) (string, error) {
 	if s == "" {
 		return "", nil

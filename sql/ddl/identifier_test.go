@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-present, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,8 +22,8 @@ package ddl_test
 import (
 	"testing"
 
-	"github.com/corestoreio/pkg/sql/ddl"
-	"github.com/corestoreio/pkg/util/assert"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/sql/ddl"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/assert"
 )
 
 func TestTableName(t *testing.T) {

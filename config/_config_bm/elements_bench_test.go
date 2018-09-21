@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-present, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,9 +22,9 @@ package config_test
 import (
 	"testing"
 
-	"github.com/corestoreio/pkg/config/cfgpath"
-	"github.com/corestoreio/pkg/config/element"
-	"github.com/corestoreio/pkg/util/cstesting"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/config/cfgpath"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/config/element"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/cstesting"
 )
 
 const enableGCPauseOutput = false

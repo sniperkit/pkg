@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-present, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -20,10 +25,11 @@ import (
 	"math"
 	"testing"
 
-	"github.com/corestoreio/pkg/config"
-	"github.com/corestoreio/pkg/config/observer"
-	"github.com/corestoreio/pkg/util/assert"
 	"github.com/mailru/easyjson"
+
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/config"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/config/observer"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/assert"
 )
 
 var (

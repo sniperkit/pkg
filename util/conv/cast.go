@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright © 2014 Steve Francia <spf@spf13.com>.
 //
 // Use of this source code is governed by an MIT-style
@@ -5,7 +10,9 @@
 
 package conv
 
-import "time"
+import (
+	"time"
+)
 
 func ToBool(i interface{}) bool {
 	v, _ := ToBoolE(i)

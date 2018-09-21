@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package store
 
 import (
@@ -8,14 +13,15 @@ import (
 	"testing"
 
 	"github.com/coreos/etcd/mvcc/backend"
-	"github.com/corestoreio/pkg/config"
-	"github.com/corestoreio/pkg/config/cfgmock"
-	"github.com/corestoreio/pkg/config/cfgmodel"
-	"github.com/corestoreio/pkg/config/cfgpath"
-	"github.com/corestoreio/pkg/store/scope"
 	"github.com/corestoreio/errors"
 	"github.com/gocraft/dbr"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/config"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/config/cfgmock"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/config/cfgmodel"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/config/cfgpath"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/store/scope"
 )
 
 // todo: refactor this all

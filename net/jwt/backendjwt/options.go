@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-2016, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,10 +20,11 @@
 package backendjwt
 
 import (
-	"github.com/corestoreio/pkg/config"
-	"github.com/corestoreio/pkg/net/jwt"
-	"github.com/corestoreio/pkg/util/csjwt"
 	"github.com/corestoreio/errors"
+
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/config"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/net/jwt"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/csjwt"
 )
 
 // PrepareOptionFactory creates a closure around the type Backend. The closure

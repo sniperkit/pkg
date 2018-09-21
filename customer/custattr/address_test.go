@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-2016, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,8 +22,8 @@
 package custattr_test
 
 import (
-	"github.com/corestoreio/pkg/customer/custattr"
-	"github.com/corestoreio/pkg/eav"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/customer/custattr"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/eav"
 )
 
 type (
@@ -418,12 +423,12 @@ func init() {
 				"",                    // frontend_class
 				"text",                // frontend_input
 				"Middle Name/Initial", // frontend_label
-				nil,   // frontend_model
-				false, // is_required
-				false, // is_unique
-				false, // is_user_defined
-				"",    // note
-				nil,   // source_model
+				nil,                   // frontend_model
+				false,                 // is_required
+				false,                 // is_unique
+				false,                 // is_user_defined
+				"",                    // note
+				nil,                   // source_model
 
 			),
 			dataModel:                nil,
@@ -715,12 +720,12 @@ func init() {
 				"",                    // frontend_class
 				"text",                // frontend_input
 				"VAT number validity", // frontend_label
-				nil,   // frontend_model
-				false, // is_required
-				false, // is_unique
-				false, // is_user_defined
-				"",    // note
-				nil,   // source_model
+				nil,                   // frontend_model
+				false,                 // is_required
+				false,                 // is_unique
+				false,                 // is_user_defined
+				"",                    // note
+				nil,                   // source_model
 
 			),
 			dataModel:                nil,
@@ -739,21 +744,21 @@ func init() {
 
 		CustomerAddressAttributeVatRequestDate: &customerAddressAttribute{
 			Attribute: eav.NewAttribute("vat_request_date", // attribute_code
-				39,        // attribute_id
-				nil,       // backend_model
-				"",        // backend_table
-				"varchar", // backend_type
-				"",        // default_value
-				2,         // entity_type_id
-				"",        // frontend_class
-				"text",    // frontend_input
+				39,                                   // attribute_id
+				nil,                                  // backend_model
+				"",                                   // backend_table
+				"varchar",                            // backend_type
+				"",                                   // default_value
+				2,                                    // entity_type_id
+				"",                                   // frontend_class
+				"text",                               // frontend_input
 				"VAT number validation request date", // frontend_label
-				nil,   // frontend_model
-				false, // is_required
-				false, // is_unique
-				false, // is_user_defined
-				"",    // note
-				nil,   // source_model
+				nil,                                  // frontend_model
+				false,                                // is_required
+				false,                                // is_unique
+				false,                                // is_user_defined
+				"",                                   // note
+				nil,                                  // source_model
 
 			),
 			dataModel:                nil,
@@ -772,21 +777,21 @@ func init() {
 
 		CustomerAddressAttributeVatRequestID: &customerAddressAttribute{
 			Attribute: eav.NewAttribute("vat_request_id", // attribute_code
-				38,        // attribute_id
-				nil,       // backend_model
-				"",        // backend_table
-				"varchar", // backend_type
-				"",        // default_value
-				2,         // entity_type_id
-				"",        // frontend_class
-				"text",    // frontend_input
+				38,                                 // attribute_id
+				nil,                                // backend_model
+				"",                                 // backend_table
+				"varchar",                          // backend_type
+				"",                                 // default_value
+				2,                                  // entity_type_id
+				"",                                 // frontend_class
+				"text",                             // frontend_input
 				"VAT number validation request ID", // frontend_label
-				nil,   // frontend_model
-				false, // is_required
-				false, // is_unique
-				false, // is_user_defined
-				"",    // note
-				nil,   // source_model
+				nil,                                // frontend_model
+				false,                              // is_required
+				false,                              // is_unique
+				false,                              // is_user_defined
+				"",                                 // note
+				nil,                                // source_model
 
 			),
 			dataModel:                nil,
@@ -805,21 +810,21 @@ func init() {
 
 		CustomerAddressAttributeVatRequestSuccess: &customerAddressAttribute{
 			Attribute: eav.NewAttribute("vat_request_success", // attribute_code
-				40,     // attribute_id
-				nil,    // backend_model
-				"",     // backend_table
-				"int",  // backend_type
-				"",     // default_value
-				2,      // entity_type_id
-				"",     // frontend_class
-				"text", // frontend_input
+				40,                                      // attribute_id
+				nil,                                     // backend_model
+				"",                                      // backend_table
+				"int",                                   // backend_type
+				"",                                      // default_value
+				2,                                       // entity_type_id
+				"",                                      // frontend_class
+				"text",                                  // frontend_input
 				"VAT number validation request success", // frontend_label
-				nil,   // frontend_model
-				false, // is_required
-				false, // is_unique
-				false, // is_user_defined
-				"",    // note
-				nil,   // source_model
+				nil,                                     // frontend_model
+				false,                                   // is_required
+				false,                                   // is_unique
+				false,                                   // is_user_defined
+				"",                                      // note
+				nil,                                     // source_model
 
 			),
 			dataModel:                nil,

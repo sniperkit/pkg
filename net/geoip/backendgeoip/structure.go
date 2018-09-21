@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-2016, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,10 +22,10 @@ package backendgeoip
 import (
 	"time"
 
-	"github.com/corestoreio/pkg/config/cfgpath"
-	"github.com/corestoreio/pkg/config/element"
-	"github.com/corestoreio/pkg/storage/text"
-	"github.com/corestoreio/pkg/store/scope"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/config/cfgpath"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/config/element"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/storage/text"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/store/scope"
 )
 
 // NewConfigStructure global configuration structure for this package. Used in

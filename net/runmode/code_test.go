@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-2016, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -21,9 +26,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/corestoreio/pkg/net/runmode"
-	"github.com/corestoreio/pkg/store"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/net/runmode"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/store"
 )
 
 var _ store.CodeProcessor = (*runmode.ProcessStoreCodeCookie)(nil)

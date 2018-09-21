@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-2016, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,8 +22,8 @@ package backendgeoip_test
 import (
 	"path/filepath"
 
-	"github.com/corestoreio/pkg/net/geoip/backendgeoip"
-	"github.com/corestoreio/pkg/net/geoip/maxmindfile"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/net/geoip/backendgeoip"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/net/geoip/maxmindfile"
 )
 
 // backend overall backend models for all tests

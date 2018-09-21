@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-2016, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -20,9 +25,10 @@ import (
 	"github.com/corestoreio/errors"
 	"github.com/corestoreio/log"
 	loghttp "github.com/corestoreio/log/http"
-	"github.com/corestoreio/pkg/net/mw"
-	"github.com/corestoreio/pkg/store"
-	"github.com/corestoreio/pkg/store/scope"
+
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/net/mw"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/store"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/store/scope"
 )
 
 // WithValidateBaseURL is a middleware which checks if the request base URL is

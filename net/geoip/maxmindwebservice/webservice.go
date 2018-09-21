@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-2016, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -22,9 +27,10 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/corestoreio/pkg/net/geoip"
-	"github.com/corestoreio/pkg/sync/singleflight"
 	"github.com/corestoreio/errors"
+
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/net/geoip"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/sync/singleflight"
 )
 
 // TransCacher transcodes Go objects. It knows how to encode and cache any Go

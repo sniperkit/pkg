@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-present, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -24,10 +29,11 @@ import (
 	"sync"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/config"
-	"github.com/corestoreio/pkg/util/bufferpool"
-	"github.com/corestoreio/pkg/util/gzippool"
-	"github.com/corestoreio/pkg/util/hashpool"
+
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/config"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/bufferpool"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/gzippool"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/hashpool"
 )
 
 // ModifierFn defines the function signature for altering the data.

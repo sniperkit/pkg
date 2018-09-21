@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-2017, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,10 +22,11 @@ package main
 import (
 	"sync"
 
-	"github.com/corestoreio/pkg/codegen"
-	"github.com/corestoreio/pkg/storage/csdb"
-	"github.com/corestoreio/pkg/storage/dbr"
 	"github.com/corestoreio/errors"
+
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/codegen"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/storage/csdb"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/storage/dbr"
 )
 
 // Connect creates a new database connection from a DSN stored in an

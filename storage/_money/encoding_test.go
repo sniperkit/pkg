@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-2016, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -19,7 +24,7 @@ import (
 	"database/sql/driver"
 	"encoding/json"
 
-	"github.com/corestoreio/pkg/storage/money"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/storage/money"
 )
 
 var (

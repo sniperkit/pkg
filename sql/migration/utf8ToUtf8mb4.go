@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-2017, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,7 +22,7 @@ package migration
 import (
 	"context"
 
-	"github.com/corestoreio/pkg/sql/dml"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/sql/dml"
 )
 
 // ToUTF8MB4 converts MySQL compatible databases from utf8 to utf8mb4. What’s

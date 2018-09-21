@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-present, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -20,8 +25,9 @@ import (
 	"hash"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/util/hashpool"
 	_ "golang.org/x/crypto/blake2b"
+
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/hashpool"
 )
 
 // NewSigningMethodBlake2b256 creates a new HMAC-Blake2b hash with a preset

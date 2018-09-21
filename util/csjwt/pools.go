@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-present, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,6 +19,8 @@
 
 package csjwt
 
-import "github.com/corestoreio/pkg/util/bufferpool"
+import (
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/bufferpool"
+)
 
 var bufPool = bufferpool.New(8192) // estimated *cough* average size of JWT 8kb

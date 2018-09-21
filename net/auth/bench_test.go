@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright (c) 2014 Olivier Poitrey <rs@dailymotion.com>
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -20,7 +25,9 @@
 
 package auth_test
 
-import "testing"
+import (
+	"testing"
+)
 
 func Benchmark_Todo(b *testing.B) {
 

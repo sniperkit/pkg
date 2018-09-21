@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-present, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -18,10 +23,10 @@ package config_test
 //	"fmt"
 //
 //	"github.com/corestoreio/errors"
-//	"github.com/corestoreio/pkg/config"
-//	"github.com/corestoreio/pkg/storage/null"
-//	"github.com/corestoreio/pkg/store"
-//	"github.com/corestoreio/pkg/store/scope"
+//	"github.com/sniperkit/snk.fork.corestoreio-pkg/config"
+//	"github.com/sniperkit/snk.fork.corestoreio-pkg/storage/null"
+//	"github.com/sniperkit/snk.fork.corestoreio-pkg/store"
+//	"github.com/sniperkit/snk.fork.corestoreio-pkg/store/scope"
 //)
 //
 //// Config Service, the Default storage engine with build-in in-memory map. The

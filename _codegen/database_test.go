@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-2017, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -20,10 +25,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/corestoreio/pkg/eav"
-	"github.com/corestoreio/pkg/storage/csdb"
-	"github.com/corestoreio/pkg/storage/dbr"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/eav"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/storage/csdb"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/storage/dbr"
 )
 
 func init() {

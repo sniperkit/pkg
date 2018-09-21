@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-2016, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,11 +22,12 @@ package store_test
 import (
 	"testing"
 
-	"github.com/corestoreio/pkg/storage/dbr"
-	"github.com/corestoreio/pkg/store"
-	"github.com/corestoreio/pkg/util/cstesting"
-	"github.com/corestoreio/pkg/util/magento"
 	"github.com/corestoreio/log"
+
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/storage/dbr"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/store"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/cstesting"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/magento"
 )
 
 // BenchmarkIntegration_TableStoreSlice_Native-4   	   10000	    259183 ns/op	    8501 B/op	     306 allocs/op <= no prepare; Rows()

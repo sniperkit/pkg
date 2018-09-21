@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-2016, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -18,8 +23,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/corestoreio/pkg/net/request"
-	"github.com/corestoreio/pkg/util/bufferpool"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/net/request"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/bufferpool"
 )
 
 // VaryByer is called for each request to generate a key for the limiter. If it

@@ -1,6 +1,13 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package main
 
-import "sort"
+import (
+	"sort"
+)
 
 //Impl Types: Requires a slice of any type (interface{})
 type I interface{}

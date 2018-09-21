@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-present, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,7 +22,7 @@ package observer
 import (
 	"sync"
 
-	"github.com/corestoreio/pkg/config"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/config"
 )
 
 // FactoryFunc allows to implement a custom observer which gets created based on

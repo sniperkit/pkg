@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-2016, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,7 +19,9 @@
 
 package locale
 
-import "github.com/corestoreio/pkg/util/slices"
+import (
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/slices"
+)
 
 // AllowedLocales lists all allowed default locales. You may modify this variable.
 var AllowedLocales = slices.String{

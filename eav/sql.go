@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-2017, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,7 +19,9 @@
 
 package eav
 
-import "github.com/corestoreio/pkg/util/bufferpool"
+import (
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/bufferpool"
+)
 
 // DefaultScopeNames specifies the name of the scopes used in all EAV* function
 // to generate scope based hierarchical fall backs.

@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-2017, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,9 +22,10 @@ package net_test
 import (
 	"testing"
 
-	"github.com/corestoreio/pkg/net"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/net"
 )
 
 func TestShiftPath(t *testing.T) {

@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-present, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -18,11 +23,11 @@ import (
 	"context"
 	"testing"
 
-	"github.com/corestoreio/pkg/sql/ddl"
-	"github.com/corestoreio/pkg/sql/dml"
-	"github.com/corestoreio/pkg/sql/dmltest"
-	"github.com/corestoreio/pkg/storage/null"
-	"github.com/corestoreio/pkg/util/byteconv"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/sql/ddl"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/sql/dml"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/sql/dmltest"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/storage/null"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/byteconv"
 )
 
 func BenchmarkTableName(b *testing.B) {

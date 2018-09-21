@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-2016, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -18,7 +23,7 @@ Package mock implements mocking of the store.Service for tests.
 Please import this package as:
 
 	import (
-		"github.com/corestoreio/pkg/store/storemock"
+		"github.com/sniperkit/snk.fork.corestoreio-pkg/store/storemock"
 	)
 
 To avoid confusion with other mock packages.

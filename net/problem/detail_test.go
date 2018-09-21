@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-2016, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -23,10 +28,11 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/corestoreio/pkg/net/problem"
 	"github.com/corestoreio/errors"
 	"github.com/mailru/easyjson"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/net/problem"
 )
 
 var _ json.Marshaler = (*problem.Detail)(nil)

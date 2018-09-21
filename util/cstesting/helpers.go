@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-present, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,7 +19,9 @@
 
 package cstesting
 
-import "os"
+import (
+	"os"
+)
 
 // fataler describes the function needed to print the output and stop the
 // current running goroutine and hence fail the test.

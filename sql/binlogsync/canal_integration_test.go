@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-2016, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -23,9 +28,10 @@ import (
 	"time"
 
 	"github.com/alecthomas/assert"
-	"github.com/corestoreio/pkg/sql/binlogsync"
-	"github.com/corestoreio/pkg/sql/ddl"
-	"github.com/corestoreio/pkg/sql/dml"
+
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/sql/binlogsync"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/sql/ddl"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/sql/dml"
 )
 
 // TODO(CyS): Add more tests

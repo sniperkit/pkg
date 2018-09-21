@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright (c) 2014 Olivier Poitrey <rs@dailymotion.com>
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -24,8 +29,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/corestoreio/pkg/net/cors"
-	"github.com/corestoreio/pkg/store/scope"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/net/cors"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/store/scope"
 )
 
 func testHandler(fa interface {

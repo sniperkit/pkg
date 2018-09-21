@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // The MIT License (MIT)
 //
 // Copyright (c) 2014 Mitchell Hashimoto

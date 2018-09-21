@@ -1,10 +1,15 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package myreplicator
 
 import (
 	"testing"
 	"time"
 
-	"github.com/corestoreio/pkg/util/assert"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/assert"
 )
 
 func TestFracTime_String(t *testing.T) {

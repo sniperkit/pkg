@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright (c) 2014 Olivier Poitrey <rs@dailymotion.com>
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -20,7 +25,9 @@
 
 package cors
 
-import "strings"
+import (
+	"strings"
+)
 
 const toLower = 'a' - 'A'
 

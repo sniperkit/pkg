@@ -1,11 +1,15 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package csjwt_test
 
 import (
+	"bytes"
 	"testing"
 
-	"bytes"
-
-	"github.com/corestoreio/pkg/util/csjwt"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/csjwt"
 )
 
 func init() {

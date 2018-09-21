@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-2016, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,9 +20,9 @@
 package user
 
 import (
-	"github.com/corestoreio/pkg/config"
-	"github.com/corestoreio/pkg/storage/dbr"
-	"github.com/corestoreio/pkg/util/crypto"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/config"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/storage/dbr"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/crypto"
 )
 
 // @todo app/code/Magento/User/Model/User.php

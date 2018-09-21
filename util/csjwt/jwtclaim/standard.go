@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package jwtclaim
 
 import (
@@ -5,7 +10,8 @@ import (
 	"time"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/util/conv"
+
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/conv"
 )
 
 //go:generate ffjson $GOFILE

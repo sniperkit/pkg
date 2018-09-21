@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-2016, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -22,13 +27,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/corestoreio/pkg/config/cfgmock"
-	"github.com/corestoreio/pkg/net/jwt"
-	"github.com/corestoreio/pkg/storage/containable"
-	"github.com/corestoreio/pkg/store/scope"
-	"github.com/corestoreio/pkg/store/storemock"
-	"github.com/corestoreio/pkg/util/csjwt"
-	"github.com/corestoreio/pkg/util/csjwt/jwtclaim"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/config/cfgmock"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/net/jwt"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/storage/containable"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/store/scope"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/store/storemock"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/csjwt"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/csjwt/jwtclaim"
 )
 
 func bmWithToken(b *testing.B, opts ...jwt.Option) {

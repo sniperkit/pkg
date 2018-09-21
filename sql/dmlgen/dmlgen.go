@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-2017, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -33,15 +38,16 @@ import (
 	"text/template"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/sql/ddl"
-	"github.com/corestoreio/pkg/sql/dml"
-	"github.com/corestoreio/pkg/util/slices"
-	"github.com/corestoreio/pkg/util/strs"
+
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/sql/ddl"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/sql/dml"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/slices"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/strs"
 )
 
 // Initial idea and prototyping for code generation.
 
-const pkgPath = `src/github.com/corestoreio/pkg/sql/dmlgen`
+const pkgPath = `src/github.com/sniperkit/snk.fork.corestoreio-pkg/sql/dmlgen`
 
 // Tables can generated Go source for for database tables once correctly
 // configured.
@@ -364,8 +370,8 @@ func NewTables(packageName string, opts ...Option) (*Tables, error) {
 		ImportPaths: []string{
 			"database/sql",
 			"encoding/json",
-			"github.com/corestoreio/pkg/sql/dml",
-			"github.com/corestoreio/pkg/sql/ddl",
+			"github.com/sniperkit/snk.fork.corestoreio-pkg/sql/dml",
+			"github.com/sniperkit/snk.fork.corestoreio-pkg/sql/ddl",
 			"github.com/corestoreio/errors",
 			"time",
 		},
@@ -518,7 +524,7 @@ func (ts *Tables) WriteGo(w io.Writer) error {
 
 	if !ts.DisableFileHeader {
 		// now figure out all used package names in the buffer.
-		fmt.Fprintf(w, "// Auto generated via github.com/corestoreio/pkg/sql/dmlgen\n\npackage %s\n\nimport (\n", ts.Package)
+		fmt.Fprintf(w, "// Auto generated via github.com/sniperkit/snk.fork.corestoreio-pkg/sql/dmlgen\n\npackage %s\n\nimport (\n", ts.Package)
 		pkgs, err := ts.findUsedPackages(buf.Bytes())
 		if err != nil {
 			return errors.WithStack(err)

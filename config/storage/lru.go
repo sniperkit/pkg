@@ -1,4 +1,9 @@
 /*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
+/*
 Copyright 2013 Google Inc.
 
 Licensed under the Apache License, Version 2.0 (the "License");
@@ -20,7 +25,7 @@ import (
 	"container/list"
 	"sync"
 
-	"github.com/corestoreio/pkg/config"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/config"
 )
 
 type liElem struct {

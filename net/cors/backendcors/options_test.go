@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-2016, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -21,15 +26,16 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/corestoreio/pkg/config/cfgmock"
-	"github.com/corestoreio/pkg/net/cors"
-	corstest "github.com/corestoreio/pkg/net/cors/internal"
-	"github.com/corestoreio/pkg/net/mw"
-	"github.com/corestoreio/pkg/store/scope"
 	"github.com/corestoreio/errors"
 	"github.com/corestoreio/log"
 	"github.com/corestoreio/log/logw"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/config/cfgmock"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/net/cors"
+	corstest "github.com/sniperkit/snk.fork.corestoreio-pkg/net/cors/internal"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/net/mw"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/store/scope"
 )
 
 // Tests partially loaded configuration and other settings will be applied from

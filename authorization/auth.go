@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-2016, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,7 +19,9 @@
 
 package authorization
 
-import "github.com/corestoreio/pkg/storage/csdb"
+import (
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/storage/csdb"
+)
 
 // TableCollection handles all tables and its columns. init() in generated Go file will set the value.
 var TableCollection csdb.TableManager

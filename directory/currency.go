@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-2016, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,7 +19,9 @@
 
 package directory
 
-import "golang.org/x/text/currency"
+import (
+	"golang.org/x/text/currency"
+)
 
 // Currency represents a corestore currency type which may add more features.
 type Currency struct {

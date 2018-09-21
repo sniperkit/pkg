@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-2016, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,9 +22,10 @@ package store
 import (
 	"net/http"
 
-	"github.com/corestoreio/pkg/store/scope"
-	"github.com/corestoreio/pkg/util"
 	"github.com/corestoreio/errors"
+
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/store/scope"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util"
 )
 
 // CodeFieldName defines the filed name where store code has been saved. Used in

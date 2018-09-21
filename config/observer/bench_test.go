@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-present, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -18,8 +23,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/corestoreio/pkg/config"
-	"github.com/corestoreio/pkg/config/observer"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/config"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/config/observer"
 )
 
 // BenchmarkMinMaxInt64/partial-4         	50000000	        30.6 ns/op	       0 B/op	       0 allocs/op

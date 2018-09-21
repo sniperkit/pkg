@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-present, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -25,11 +30,12 @@ import (
 	"testing"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/util/assert"
-	"github.com/corestoreio/pkg/util/hashpool"
 	"github.com/dchest/siphash"
 	"github.com/pierrec/xxHash/xxHash64"
 	_ "golang.org/x/crypto/blake2b"
+
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/assert"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/hashpool"
 )
 
 var data = []byte(`“The most important property of a program is whether it accomplishes the intention of its user.” ― C.A.R. Hoare`)

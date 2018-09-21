@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-2017, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,14 +20,13 @@
 package main
 
 import (
-	"strings"
-
 	"database/sql"
 	"fmt"
+	"strings"
 
-	"github.com/corestoreio/pkg/codegen"
-	"github.com/corestoreio/pkg/storage/csdb"
-	"github.com/corestoreio/pkg/util"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/codegen"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/storage/csdb"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util"
 )
 
 type OneTable struct {

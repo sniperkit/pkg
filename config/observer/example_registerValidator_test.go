@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-present, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -20,9 +25,9 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/corestoreio/pkg/config"
-	"github.com/corestoreio/pkg/config/observer"
-	"github.com/corestoreio/pkg/config/storage"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/config"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/config/observer"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/config/storage"
 )
 
 // ExampleRegisterValidator register a custom validator with the name

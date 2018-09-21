@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-present, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -18,8 +23,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/corestoreio/pkg/store/scope"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/store/scope"
 )
 
 func TestFromContext(t *testing.T) {

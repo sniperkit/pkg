@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-2016, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,10 +22,11 @@ package jwt
 import (
 	"time"
 
-	"github.com/corestoreio/pkg/net/mw"
-	"github.com/corestoreio/pkg/store/scope"
-	"github.com/corestoreio/pkg/util/csjwt"
 	"github.com/corestoreio/errors"
+
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/net/mw"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/store/scope"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/csjwt"
 )
 
 // WithDefaultConfig applies the default JWT configuration settings based for

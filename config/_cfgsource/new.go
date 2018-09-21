@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-present, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,7 +19,9 @@
 
 package _cfgsource
 
-import "github.com/corestoreio/errors"
+import (
+	"github.com/corestoreio/errors"
+)
 
 // NewByString creates a new ValueLabelSlice (VLS) from key,value list.
 // It panics when arguments are imbalanced. Example:

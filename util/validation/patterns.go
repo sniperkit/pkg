@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // The MIT License (MIT)
 //
 // Copyright (c) 2014 Alex Saskevich
@@ -22,7 +27,9 @@
 
 package validation
 
-import "regexp"
+import (
+	"regexp"
+)
 
 // TODO remove REGEX as many as possible, already removed 5 regexes
 

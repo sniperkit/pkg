@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright (c) 2015 Taco de Wolff
 //
 // Permission is hereby granted, free of charge, to any person

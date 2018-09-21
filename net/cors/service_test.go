@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright (c) 2014 Olivier Poitrey <rs@dailymotion.com>
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -27,13 +32,14 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/corestoreio/pkg/config/cfgmock"
-	"github.com/corestoreio/pkg/net/cors"
-	corstest "github.com/corestoreio/pkg/net/cors/internal"
-	"github.com/corestoreio/pkg/net/mw"
-	"github.com/corestoreio/pkg/store/scope"
 	"github.com/corestoreio/errors"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/config/cfgmock"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/net/cors"
+	corstest "github.com/sniperkit/snk.fork.corestoreio-pkg/net/cors/internal"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/net/mw"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/store/scope"
 )
 
 func reqWithStore(method string) *http.Request {

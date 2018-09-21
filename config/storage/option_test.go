@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-present, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -21,9 +26,9 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/corestoreio/pkg/config"
-	"github.com/corestoreio/pkg/config/storage"
-	"github.com/corestoreio/pkg/util/assert"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/config"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/config/storage"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/assert"
 )
 
 func TestWithGlob_Placeholder(t *testing.T) {

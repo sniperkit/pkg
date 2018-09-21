@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package myreplicator
 
 import (
@@ -11,9 +16,10 @@ import (
 
 	"github.com/corestoreio/errors"
 	"github.com/corestoreio/log"
-	"github.com/corestoreio/pkg/sql/ddl"
 	"github.com/siddontang/go-mysql/client"
 	"github.com/siddontang/go-mysql/mysql"
+
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/sql/ddl"
 )
 
 var (

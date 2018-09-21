@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-2016, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -23,13 +28,14 @@ import (
 	"path/filepath"
 	"testing"
 
-	csnet "github.com/corestoreio/pkg/net"
-	"github.com/corestoreio/pkg/net/compress"
-	"github.com/corestoreio/pkg/net/mw"
-	"github.com/corestoreio/pkg/net/response"
 	"github.com/klauspost/compress/flate"
 	"github.com/klauspost/compress/gzip"
 	"github.com/stretchr/testify/assert"
+
+	csnet "github.com/sniperkit/snk.fork.corestoreio-pkg/net"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/net/compress"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/net/mw"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/net/response"
 )
 
 var testJson string

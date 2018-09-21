@@ -1,4 +1,9 @@
-// Auto generated via github.com/corestoreio/pkg/sql/dmlgen
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
+// Auto generated via github.com/sniperkit/snk.fork.corestoreio-pkg/sql/dmlgen
 
 package testdata
 
@@ -7,8 +12,9 @@ import (
 	"time"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/sql/ddl"
-	"github.com/corestoreio/pkg/sql/dml"
+
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/sql/ddl"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/sql/dml"
 )
 
 // NewTables returns a goified version of the MySQL/MariaDB table schema for the

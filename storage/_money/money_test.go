@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-2016, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -18,7 +23,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/corestoreio/pkg/storage/money"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/storage/money"
 )
 
 var _ fmt.Stringer = (*money.Money)(nil)
@@ -265,11 +270,11 @@ func TestMoney_Rescale(t *testing.T) {
 		newPrec int
 		want    string
 	}{
-	//{13, 0, 1, "13.0"},
-	//{256, 1, 1, "25.6"},
-	//{256, 2, 1, "2.6"},
-	//{2545, 3, 1, "2.6"}, // 2.545 => 2.6
-	//{2535, 3, 1, "2.5"},
+		//{13, 0, 1, "13.0"},
+		//{256, 1, 1, "25.6"},
+		//{256, 2, 1, "2.6"},
+		//{2545, 3, 1, "2.6"}, // 2.545 => 2.6
+		//{2535, 3, 1, "2.5"},
 	}
 
 	for i, test := range tests {

@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-2017, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -20,12 +25,12 @@ import (
 	"io"
 	"io/ioutil"
 	"os"
-
 	"text/template"
 
-	"github.com/corestoreio/pkg/codegen"
-	"github.com/corestoreio/pkg/codegen/localization/gen"
 	"golang.org/x/text/unicode/cldr"
+
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/codegen"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/codegen/localization/gen"
 )
 
 func main() {

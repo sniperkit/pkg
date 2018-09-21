@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-2017, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,8 +22,9 @@ package eav_test
 import (
 	"testing"
 
-	"github.com/corestoreio/pkg/eav"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/eav"
 )
 
 func TestAttributeSource(t *testing.T) {

@@ -1,12 +1,16 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package csjwt_test
 
 import (
+	"bytes"
 	"io/ioutil"
 	"testing"
 
-	"bytes"
-
-	"github.com/corestoreio/pkg/util/csjwt"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/csjwt"
 )
 
 // check if interface has been implemented.

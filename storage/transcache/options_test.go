@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-2016, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,7 +19,9 @@
 
 package transcache_test
 
-import "github.com/corestoreio/pkg/storage/transcache"
+import (
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/storage/transcache"
+)
 
 var (
 	_ transcache.Codecer = transcache.XMLCodec{}

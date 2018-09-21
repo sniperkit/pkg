@@ -1,6 +1,13 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package store
 
-import "sort"
+import (
+	"sort"
+)
 
 type sortTableStoreSlice struct {
 	TableStoreSlice

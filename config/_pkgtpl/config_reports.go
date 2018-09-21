@@ -1,10 +1,15 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // +build ignore
 
 package reports
 
 import (
-	"github.com/corestoreio/pkg/config/element"
-	"github.com/corestoreio/pkg/store/scope"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/config/element"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/store/scope"
 )
 
 // ConfigStructure global configuration structure for this package.

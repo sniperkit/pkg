@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright (c) 2014 Olivier Poitrey <rs@dailymotion.com>
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -27,8 +32,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/corestoreio/pkg/net/cors"
-	"github.com/corestoreio/pkg/util/cstesting"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/net/cors"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/cstesting"
 )
 
 const testHandlerBodyData = `foobar`
@@ -54,7 +59,7 @@ func TestNoConfig(t *testing.T, s *cors.Service, req *http.Request) {
 	hpu := cstesting.NewHTTPParallelUsers(10, 3, 300, time.Microsecond)
 	hpu.AssertResponse = func(rec *httptest.ResponseRecorder) {
 		assertHeaders(t, rec.Header(), map[string]string{
-			"Vary": "Origin",
+			"Vary":                             "Origin",
 			"Access-Control-Allow-Origin":      "",
 			"Access-Control-Allow-Methods":     "",
 			"Access-Control-Allow-Headers":     "",
@@ -73,7 +78,7 @@ func TestMatchAllOrigin(t *testing.T, s *cors.Service, req *http.Request) {
 	hpu := cstesting.NewHTTPParallelUsers(10, 10, 300, time.Millisecond)
 	hpu.AssertResponse = func(rec *httptest.ResponseRecorder) {
 		assertHeaders(t, rec.Header(), map[string]string{
-			"Vary": "Origin",
+			"Vary":                             "Origin",
 			"Access-Control-Allow-Origin":      "http://foobar.com",
 			"Access-Control-Allow-Methods":     "",
 			"Access-Control-Allow-Headers":     "",
@@ -92,7 +97,7 @@ func TestAllowedOrigin(t *testing.T, s *cors.Service, req *http.Request) {
 	hpu := cstesting.NewHTTPParallelUsers(10, 4, 300, time.Millisecond)
 	hpu.AssertResponse = func(rec *httptest.ResponseRecorder) {
 		assertHeaders(t, rec.Header(), map[string]string{
-			"Vary": "Origin",
+			"Vary":                             "Origin",
 			"Access-Control-Allow-Origin":      "http://foobar.com",
 			"Access-Control-Allow-Methods":     "",
 			"Access-Control-Allow-Headers":     "",
@@ -111,7 +116,7 @@ func TestWildcardOrigin(t *testing.T, s *cors.Service, req *http.Request) {
 	hpu := cstesting.NewHTTPParallelUsers(2, 10, 300, time.Microsecond)
 	hpu.AssertResponse = func(rec *httptest.ResponseRecorder) {
 		assertHeaders(t, rec.Header(), map[string]string{
-			"Vary": "Origin",
+			"Vary":                             "Origin",
 			"Access-Control-Allow-Origin":      "http://foo.bar.com",
 			"Access-Control-Allow-Methods":     "",
 			"Access-Control-Allow-Headers":     "",
@@ -130,7 +135,7 @@ func TestDisallowedOrigin(t *testing.T, s *cors.Service, req *http.Request) {
 	hpu := cstesting.NewHTTPParallelUsers(10, 5, 300, time.Millisecond)
 	hpu.AssertResponse = func(rec *httptest.ResponseRecorder) {
 		assertHeaders(t, rec.Header(), map[string]string{
-			"Vary": "Origin",
+			"Vary":                             "Origin",
 			"Access-Control-Allow-Origin":      "",
 			"Access-Control-Allow-Methods":     "",
 			"Access-Control-Allow-Headers":     "",
@@ -149,7 +154,7 @@ func TestDisallowedWildcardOrigin(t *testing.T, s *cors.Service, req *http.Reque
 	hpu := cstesting.NewHTTPParallelUsers(10, 3, 300, time.Millisecond)
 	hpu.AssertResponse = func(rec *httptest.ResponseRecorder) {
 		assertHeaders(t, rec.Header(), map[string]string{
-			"Vary": "Origin",
+			"Vary":                             "Origin",
 			"Access-Control-Allow-Origin":      "",
 			"Access-Control-Allow-Methods":     "",
 			"Access-Control-Allow-Headers":     "",
@@ -188,7 +193,7 @@ func TestAllowedMethodNoPassthrough(t *testing.T, s *cors.Service, req *http.Req
 	hpu := cstesting.NewHTTPParallelUsers(10, 10, 200, time.Millisecond)
 	hpu.AssertResponse = func(rec *httptest.ResponseRecorder) {
 		assertHeaders(t, rec.Header(), map[string]string{
-			"Vary": "Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
+			"Vary":                             "Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
 			"Access-Control-Allow-Origin":      "http://foobar.com",
 			"Access-Control-Allow-Methods":     "PUT",
 			"Access-Control-Allow-Headers":     "",
@@ -212,7 +217,7 @@ func TestAllowedMethodPassthrough(t *testing.T, s *cors.Service, req *http.Reque
 	hpu := cstesting.NewHTTPParallelUsers(10, 10, 100, time.Millisecond)
 	hpu.AssertResponse = func(rec *httptest.ResponseRecorder) {
 		assertHeaders(t, rec.Header(), map[string]string{
-			"Vary": "Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
+			"Vary":                             "Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
 			"Access-Control-Allow-Origin":      "http://foobar.com",
 			"Access-Control-Allow-Methods":     "PUT",
 			"Access-Control-Allow-Headers":     "",
@@ -235,7 +240,7 @@ func TestDisallowedMethod(t *testing.T, s *cors.Service, req *http.Request) {
 	hpu := cstesting.NewHTTPParallelUsers(10, 10, 300, time.Millisecond)
 	hpu.AssertResponse = func(rec *httptest.ResponseRecorder) {
 		assertHeaders(t, rec.Header(), map[string]string{
-			"Vary": "Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
+			"Vary":                             "Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
 			"Access-Control-Allow-Origin":      "",
 			"Access-Control-Allow-Methods":     "",
 			"Access-Control-Allow-Headers":     "",
@@ -256,7 +261,7 @@ func TestAllowedHeader(t *testing.T, s *cors.Service, req *http.Request) {
 	hpu := cstesting.NewHTTPParallelUsers(10, 10, 300, time.Millisecond)
 	hpu.AssertResponse = func(rec *httptest.ResponseRecorder) {
 		assertHeaders(t, rec.Header(), map[string]string{
-			"Vary": "Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
+			"Vary":                             "Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
 			"Access-Control-Allow-Origin":      "http://foobar.com",
 			"Access-Control-Allow-Methods":     "GET",
 			"Access-Control-Allow-Headers":     "X-Header-2, X-Header-1",
@@ -277,7 +282,7 @@ func TestAllowedWildcardHeader(t *testing.T, s *cors.Service, req *http.Request)
 	hpu := cstesting.NewHTTPParallelUsers(10, 10, 300, time.Millisecond)
 	hpu.AssertResponse = func(rec *httptest.ResponseRecorder) {
 		assertHeaders(t, rec.Header(), map[string]string{
-			"Vary": "Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
+			"Vary":                             "Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
 			"Access-Control-Allow-Origin":      "http://foobar.com",
 			"Access-Control-Allow-Methods":     "GET",
 			"Access-Control-Allow-Headers":     "X-Header-2, X-Header-1",
@@ -298,7 +303,7 @@ func TestDisallowedHeader(t *testing.T, s *cors.Service, req *http.Request) {
 	hpu := cstesting.NewHTTPParallelUsers(10, 10, 300, time.Millisecond)
 	hpu.AssertResponse = func(rec *httptest.ResponseRecorder) {
 		assertHeaders(t, rec.Header(), map[string]string{
-			"Vary": "Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
+			"Vary":                             "Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
 			"Access-Control-Allow-Origin":      "",
 			"Access-Control-Allow-Methods":     "",
 			"Access-Control-Allow-Headers":     "",
@@ -319,7 +324,7 @@ func TestOriginHeader(t *testing.T, s *cors.Service, req *http.Request) {
 	hpu := cstesting.NewHTTPParallelUsers(10, 10, 300, time.Millisecond)
 	hpu.AssertResponse = func(rec *httptest.ResponseRecorder) {
 		assertHeaders(t, rec.Header(), map[string]string{
-			"Vary": "Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
+			"Vary":                             "Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
 			"Access-Control-Allow-Origin":      "http://foobar.com",
 			"Access-Control-Allow-Methods":     "GET",
 			"Access-Control-Allow-Headers":     "Origin",
@@ -338,7 +343,7 @@ func TestExposedHeader(t *testing.T, s *cors.Service, req *http.Request) {
 	hpu := cstesting.NewHTTPParallelUsers(10, 4, 300, time.Millisecond)
 	hpu.AssertResponse = func(rec *httptest.ResponseRecorder) {
 		assertHeaders(t, rec.Header(), map[string]string{
-			"Vary": "Origin",
+			"Vary":                             "Origin",
 			"Access-Control-Allow-Origin":      "http://foobar.com",
 			"Access-Control-Allow-Methods":     "",
 			"Access-Control-Allow-Headers":     "",
@@ -358,7 +363,7 @@ func TestAllowedCredentials(t *testing.T, s *cors.Service, req *http.Request) {
 	hpu := cstesting.NewHTTPParallelUsers(5, 5, 200, time.Millisecond)
 	hpu.AssertResponse = func(rec *httptest.ResponseRecorder) {
 		assertHeaders(t, rec.Header(), map[string]string{
-			"Vary": "Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
+			"Vary":                             "Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
 			"Access-Control-Allow-Origin":      "http://foobar.com",
 			"Access-Control-Allow-Methods":     "GET",
 			"Access-Control-Allow-Headers":     "",
@@ -378,7 +383,7 @@ func TestMaxAge(t *testing.T, s *cors.Service, req *http.Request) {
 	hpu := cstesting.NewHTTPParallelUsers(10, 10, 300, time.Millisecond)
 	hpu.AssertResponse = func(rec *httptest.ResponseRecorder) {
 		assertHeaders(t, rec.Header(), map[string]string{
-			"Vary": "Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
+			"Vary":                             "Origin, Access-Control-Request-Method, Access-Control-Request-Headers",
 			"Access-Control-Allow-Origin":      "http://foobar.com",
 			"Access-Control-Allow-Methods":     "GET",
 			"Access-Control-Allow-Headers":     "",

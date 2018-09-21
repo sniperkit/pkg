@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package binlogsync
 
 import (
@@ -6,7 +11,8 @@ import (
 
 	"github.com/corestoreio/errors"
 	"github.com/corestoreio/log"
-	"github.com/corestoreio/pkg/sql/myreplicator"
+
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/sql/myreplicator"
 )
 
 // Action constants to figure out the type of an event. Those constants will be

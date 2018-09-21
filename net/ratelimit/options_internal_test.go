@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-2016, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -19,12 +24,13 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/corestoreio/pkg/store/scope"
-	"github.com/corestoreio/pkg/util/cstesting"
 	"github.com/corestoreio/errors"
 	"github.com/stretchr/testify/assert"
 	"gopkg.in/throttled/throttled.v2"
 	"gopkg.in/throttled/throttled.v2/store/memstore"
+
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/store/scope"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/cstesting"
 )
 
 type stubLimiter struct{}

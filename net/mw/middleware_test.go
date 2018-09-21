@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-2016, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -22,8 +27,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/corestoreio/pkg/net/mw"
-	"github.com/corestoreio/pkg/util/assert"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/net/mw"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/assert"
 )
 
 type key uint

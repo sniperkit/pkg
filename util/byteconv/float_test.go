@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright (c) 2015 Taco de Wolff
 //
 // Permission is hereby granted, free of charge, to any person
@@ -27,7 +32,7 @@ import (
 	"database/sql"
 	"testing"
 
-	"github.com/corestoreio/pkg/util/assert"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/assert"
 )
 
 func TestParseNullFloatSQL_ParseFloatSQL(t *testing.T) {

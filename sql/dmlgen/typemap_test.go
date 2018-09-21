@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-2017, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,9 +22,10 @@ package dmlgen
 import (
 	"testing"
 
-	"github.com/corestoreio/pkg/sql/ddl"
-	"github.com/corestoreio/pkg/storage/null"
 	"github.com/stretchr/testify/require"
+
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/sql/ddl"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/storage/null"
 )
 
 func TestGetGoPrimitive(t *testing.T) {

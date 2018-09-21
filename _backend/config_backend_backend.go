@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-2016, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,9 +22,9 @@ package backend
 import (
 	"sync"
 
-	"github.com/corestoreio/pkg/config/cfgmodel"
-	"github.com/corestoreio/pkg/config/element"
-	"github.com/corestoreio/pkg/config/source"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/config/cfgmodel"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/config/element"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/config/source"
 )
 
 // Backend will be initialized in the init() function together with ConfigStructure.

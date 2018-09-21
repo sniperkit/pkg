@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-2016, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -20,15 +25,16 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/corestoreio/pkg/config/cfgmock"
-	"github.com/corestoreio/pkg/net/mw"
-	"github.com/corestoreio/pkg/net/runmode"
-	"github.com/corestoreio/pkg/store"
-	"github.com/corestoreio/pkg/store/scope"
-	"github.com/corestoreio/pkg/store/storemock"
 	"github.com/corestoreio/errors"
 	"github.com/corestoreio/log"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/config/cfgmock"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/net/mw"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/net/runmode"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/store"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/store/scope"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/store/storemock"
 )
 
 func getReq(m, t string, c *http.Cookie) *http.Request {

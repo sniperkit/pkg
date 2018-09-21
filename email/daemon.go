@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-2016, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -21,10 +26,11 @@ import (
 	"io"
 	"time"
 
-	"github.com/corestoreio/pkg/config"
-	"github.com/corestoreio/pkg/util"
-	"github.com/corestoreio/pkg/util/log"
 	"github.com/go-gomail/gomail"
+
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/config"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/log"
 )
 
 // OfflineLogger represents a special email logger if mail sending has

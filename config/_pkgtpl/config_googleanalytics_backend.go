@@ -1,10 +1,15 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // +build ignore
 
 package googleanalytics
 
 import (
-	"github.com/corestoreio/pkg/config/cfgmodel"
-	"github.com/corestoreio/pkg/config/element"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/config/cfgmodel"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/config/element"
 )
 
 // Backend will be initialized in the init() function together with ConfigStructure.

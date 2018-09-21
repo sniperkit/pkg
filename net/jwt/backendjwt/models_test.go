@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-2016, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,11 +22,12 @@ package backendjwt_test
 import (
 	"testing"
 
-	"github.com/corestoreio/pkg/config/cfgmock"
-	"github.com/corestoreio/pkg/net/jwt/backendjwt"
-	"github.com/corestoreio/pkg/store/scope"
 	"github.com/corestoreio/errors"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/config/cfgmock"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/net/jwt/backendjwt"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/store/scope"
 )
 
 func TestNewConfigSigningMethodGetDefaultPathError(t *testing.T) {

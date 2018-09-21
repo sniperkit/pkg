@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-present, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -18,13 +23,14 @@ import (
 	"encoding/json"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/util/conv"
+
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/conv"
 )
 
 //go:generate ffjson $GOFILE
 
 // Key.... are available claims in struct Store.
-// KeyStore is equal to github.com/corestoreio/pkg/store/storenet.ParamName
+// KeyStore is equal to github.com/sniperkit/snk.fork.corestoreio-pkg/store/storenet.ParamName
 const (
 	KeyStore  = "store"
 	KeyUserID = "userid"

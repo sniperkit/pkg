@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // The MIT License (MIT)
 //
 // Copyright (c) 2014 Mitchell Hashimoto
@@ -28,7 +33,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/corestoreio/pkg/util/bufferpool"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/bufferpool"
 )
 
 const nbsp = 0xA0

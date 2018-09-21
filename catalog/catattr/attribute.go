@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-2016, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,8 +22,9 @@
 package catattr
 
 import (
-	"github.com/corestoreio/pkg/eav"
 	"github.com/juju/errgo"
+
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/eav"
 )
 
 type (
@@ -129,8 +135,8 @@ func NewCatalog(
 	searchWeight int64,
 ) *Catalog {
 	return &Catalog{
-		Attribute: a,
-		wa:        nil,
+		Attribute:                 a,
+		wa:                        nil,
 		frontendInputRenderer:     fir,
 		isGlobal:                  isGlobal,
 		isVisible:                 isVisible,

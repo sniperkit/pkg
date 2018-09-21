@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 //go:generate go get -u github.com/jteeuwen/go-bindata/go-bindata
 //go:generate go install github.com/jteeuwen/go-bindata/go-bindata
 //go:generate go-bindata -ignore \.git\S* -ignore LICENSE -ignore README\.md -ignore blns\.base64\.txt -ignore blns\.txt -ignore package\.json -o internal/resource.go -nocompress -pkg internal ..
@@ -9,7 +14,7 @@ package naughtystrings
 import (
 	"encoding/json"
 
-	"github.com/corestoreio/pkg/util/naughtystrings/internal"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/naughtystrings/internal"
 )
 
 var base64encoded, unencoded []string

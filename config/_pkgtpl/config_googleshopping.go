@@ -1,10 +1,15 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // +build ignore
 
 package googleshopping
 
 import (
-	"github.com/corestoreio/pkg/config"
-	"github.com/corestoreio/pkg/store/scope"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/config"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/store/scope"
 )
 
 var PackageConfiguration = config.MustNewConfiguration(

@@ -1,6 +1,13 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package assert
 
-import "time"
+import (
+	"time"
+)
 
 // Assertions provides assertion methods around the
 // TestingT interface.

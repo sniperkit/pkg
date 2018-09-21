@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-2017, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -245,14 +250,14 @@ func TestExtractPathType(t *testing.T) {
 			isErr:  false,
 		},
 		{
-			have:   "github.com/corestoreio/pkg/catalog.Product()",
-			wantIP: "github.com/corestoreio/pkg/catalog",
+			have:   "github.com/sniperkit/snk.fork.corestoreio-pkg/catalog.Product()",
+			wantIP: "github.com/sniperkit/snk.fork.corestoreio-pkg/catalog",
 			wantFT: "catalog.Product()",
 			isErr:  false,
 		},
 		{
-			have:   "github.com/corestoreio/pkg/catalog/catattr.NewHandler({{.EntityTypeID}})",
-			wantIP: "github.com/corestoreio/pkg/catalog/catattr",
+			have:   "github.com/sniperkit/snk.fork.corestoreio-pkg/catalog/catattr.NewHandler({{.EntityTypeID}})",
+			wantIP: "github.com/sniperkit/snk.fork.corestoreio-pkg/catalog/catattr",
 			wantFT: "catattr.NewHandler({{.EntityTypeID}})",
 			isErr:  false,
 		},

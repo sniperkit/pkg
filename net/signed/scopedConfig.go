@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-2016, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -23,11 +28,12 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/corestoreio/pkg/net/responseproxy"
-	"github.com/corestoreio/pkg/store/scope"
-	"github.com/corestoreio/pkg/util/bufferpool"
-	"github.com/corestoreio/pkg/util/hashpool"
 	"github.com/corestoreio/errors"
+
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/net/responseproxy"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/store/scope"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/bufferpool"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/hashpool"
 )
 
 // DefaultHashName identifies the default hash when creating a new scoped

@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // A useful example app.  You can use this to debug your tokens on the command line.
 // This is also a great place to look at how you might use this library.
 //
@@ -16,8 +21,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/corestoreio/pkg/util/csjwt"
-	"github.com/corestoreio/pkg/util/csjwt/jwtclaim"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/csjwt"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/csjwt/jwtclaim"
 )
 
 var (

@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-2016, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,15 +22,16 @@ package redigostore
 import (
 	"time"
 
-	"github.com/corestoreio/pkg/config"
-	"github.com/corestoreio/pkg/config/cfgmodel"
-	"github.com/corestoreio/pkg/net/ratelimit"
-	"github.com/corestoreio/pkg/net/url"
-	"github.com/corestoreio/pkg/store/scope"
 	"github.com/corestoreio/errors"
 	"github.com/corestoreio/log"
 	"github.com/garyburd/redigo/redis"
 	throttledRedis "gopkg.in/throttled/throttled.v2/store/redigostore"
+
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/config"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/config/cfgmodel"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/net/ratelimit"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/net/url"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/store/scope"
 )
 
 // OptionName identifies this package within the register of the

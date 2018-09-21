@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-2016, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,13 +22,13 @@ package signed_test
 import (
 	"net/http"
 	"net/http/httptest"
+	"strings"
 	"testing"
 
-	"strings"
-
-	"github.com/corestoreio/pkg/net/signed"
 	"github.com/corestoreio/errors"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/net/signed"
 )
 
 var _ signed.HeaderParseWriter = (*signed.ContentHMAC)(nil)

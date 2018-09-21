@@ -1,9 +1,14 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package assert_test
 
 import (
 	"testing"
 
-	"github.com/corestoreio/pkg/util/assert"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/assert"
 )
 
 func TestObjectsAreEqual(t *testing.T) {

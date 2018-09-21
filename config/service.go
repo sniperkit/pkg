@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-present, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -24,7 +29,8 @@ import (
 
 	"github.com/corestoreio/errors"
 	"github.com/corestoreio/log"
-	"github.com/corestoreio/pkg/store/scope"
+
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/store/scope"
 )
 
 // Scoper creates a hierarchy based configuration retriever based on website and

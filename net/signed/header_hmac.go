@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-2016, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,10 +20,9 @@
 package signed
 
 import (
+	"encoding/hex"
 	"net/http"
 	"strings"
-
-	"encoding/hex"
 
 	"github.com/corestoreio/errors"
 )

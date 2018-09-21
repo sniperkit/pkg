@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-present, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -50,7 +55,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/corestoreio/pkg/util/conv"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/conv"
 )
 
 var (

@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-2016, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -20,11 +25,12 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/corestoreio/pkg/net/mw"
-	"github.com/corestoreio/pkg/net/request"
 	"github.com/corestoreio/log"
 	"github.com/rs/xstats"
 	"github.com/zenazn/goji/web/mutil"
+
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/net/mw"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/net/request"
 )
 
 // Idea: github.com/rs/xaccess Copyright (c) 2015 Olivier Poitrey <rs@dailymotion.com> MIT License

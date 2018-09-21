@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package csjwt
 
 import (
@@ -7,7 +12,8 @@ import (
 	"testing"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/util/assert"
+
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/assert"
 )
 
 var _ fmt.GoStringer = (*Key)(nil)

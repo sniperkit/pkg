@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // The MIT License (MIT)
 //
 // Copyright (c) 2014 Alex Saskevich
@@ -22,7 +27,9 @@
 
 package validation
 
-import "testing"
+import (
+	"testing"
+)
 
 func TestAbs(t *testing.T) {
 	t.Parallel()

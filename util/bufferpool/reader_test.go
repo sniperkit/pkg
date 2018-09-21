@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-present, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -19,9 +24,9 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/corestoreio/pkg/sync/bgwork"
-	"github.com/corestoreio/pkg/util/assert"
-	"github.com/corestoreio/pkg/util/bufferpool"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/sync/bgwork"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/assert"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/bufferpool"
 )
 
 func TestReader(t *testing.T) {

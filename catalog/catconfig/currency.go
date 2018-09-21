@@ -1,9 +1,15 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package catconfig
 
 import (
-	"github.com/corestoreio/pkg/config"
-	"github.com/corestoreio/pkg/directory"
 	"github.com/corestoreio/errors"
+
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/config"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/directory"
 )
 
 // BaseCurrency returns the base currency code of a website.

@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Go MySQL Driver - A MySQL-Driver for Go's database/sql package
 //
 // Copyright 2012 The Go-MySQL-Driver Authors. All rights reserved.

@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package binlogsync
 
 import (
@@ -12,13 +17,14 @@ import (
 
 	"github.com/corestoreio/errors"
 	"github.com/corestoreio/log"
-	"github.com/corestoreio/pkg/config"
-	"github.com/corestoreio/pkg/sql/ddl"
-	"github.com/corestoreio/pkg/sql/dml"
-	"github.com/corestoreio/pkg/sql/myreplicator"
-	"github.com/corestoreio/pkg/sync/singleflight"
-	"github.com/corestoreio/pkg/util/conv"
 	"github.com/go-sql-driver/mysql"
+
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/config"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/sql/ddl"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/sql/dml"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/sql/myreplicator"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/sync/singleflight"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/conv"
 )
 
 // Use flavor for different MySQL versions,

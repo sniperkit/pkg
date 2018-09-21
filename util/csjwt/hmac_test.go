@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-present, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -18,7 +23,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/corestoreio/pkg/util/csjwt"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/csjwt"
 )
 
 func init() {

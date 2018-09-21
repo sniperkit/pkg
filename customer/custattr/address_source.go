@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-2016, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,7 +19,9 @@
 
 package custattr
 
-import "github.com/corestoreio/pkg/eav"
+import (
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/eav"
+)
 
 // AddressSourceCountry retrieves slice of countries @todo
 // @see magento2/site/app/code/Magento/Customer/Model/Resource/Address/Attribute/Source/Country.php

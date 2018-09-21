@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-2016, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -19,10 +24,11 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/corestoreio/pkg/net/url"
-	"github.com/corestoreio/pkg/storage/transcache"
 	"github.com/corestoreio/errors"
 	"github.com/garyburd/redigo/redis"
+
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/net/url"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/storage/transcache"
 )
 
 // WithClient connects to the Redis server. Set ping to true to check if the

@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-2016, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -18,13 +23,14 @@ import (
 	"io"
 	"sync"
 
-	"github.com/corestoreio/pkg/config"
-	"github.com/corestoreio/pkg/net/mw"
-	"github.com/corestoreio/pkg/store/scope"
-	"github.com/corestoreio/pkg/sync/singleflight"
 	"github.com/corestoreio/errors"
 	"github.com/corestoreio/log"
 	"github.com/corestoreio/log/logw"
+
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/config"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/net/mw"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/store/scope"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/sync/singleflight"
 )
 
 // Auto generated: Do not edit. See net/internal/scopedService package for more details.

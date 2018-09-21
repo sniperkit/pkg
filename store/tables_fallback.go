@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-2016, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -24,11 +29,12 @@ import (
 	"database/sql"
 	"sort"
 
-	"github.com/corestoreio/pkg/storage/csdb"
-	"github.com/corestoreio/pkg/storage/dbr"
-	"github.com/corestoreio/pkg/util/null"
 	"github.com/corestoreio/errors"
 	"github.com/corestoreio/log"
+
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/storage/csdb"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/storage/dbr"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/null"
 )
 
 // TableIndex... is the index to a table. These constants are guaranteed

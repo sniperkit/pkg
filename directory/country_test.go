@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-2016, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,10 +22,11 @@ package directory_test
 import (
 	"testing"
 
-	"github.com/corestoreio/pkg/config/cfgmock"
-	"github.com/corestoreio/pkg/config/cfgmodel"
-	"github.com/corestoreio/pkg/store/scope"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/config/cfgmock"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/config/cfgmodel"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/store/scope"
 )
 
 func TestPathCountryAllowedCustom(t *testing.T) {

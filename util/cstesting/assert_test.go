@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-present, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -18,8 +23,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/corestoreio/pkg/util/assert"
-	"github.com/corestoreio/pkg/util/cstesting"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/assert"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/cstesting"
 )
 
 type mockErrorf struct {

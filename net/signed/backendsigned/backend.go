@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-2016, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,9 +20,9 @@
 package backendsigned
 
 import (
-	"github.com/corestoreio/pkg/config/cfgmodel"
-	"github.com/corestoreio/pkg/config/element"
-	"github.com/corestoreio/pkg/net/signed"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/config/cfgmodel"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/config/element"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/net/signed"
 )
 
 // Configuration just exported for the sake of documentation. See fields for more

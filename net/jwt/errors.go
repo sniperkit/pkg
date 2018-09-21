@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-2016, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,7 +19,9 @@
 
 package jwt
 
-import "github.com/corestoreio/errors"
+import (
+	"github.com/corestoreio/errors"
+)
 
 const (
 	errServiceUnsupportedScope         = "[jwt] Service does not support this: %s. Only default or website scope are allowed."

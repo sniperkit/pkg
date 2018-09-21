@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package csjwt_test
 
 //
@@ -5,9 +10,9 @@ package csjwt_test
 //	"fmt"
 //	"time"
 //
-//	"github.com/corestoreio/pkg/util/cserr"
-//	"github.com/corestoreio/pkg/util/csjwt"
-//	"github.com/corestoreio/pkg/util/csjwt/jwtclaim"
+//	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/cserr"
+//	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/csjwt"
+//	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/csjwt/jwtclaim"
 //)
 //
 //func ExampleVerification(myToken []byte, myLookupKey func(interface{}) (csjwt.Key, error)) {

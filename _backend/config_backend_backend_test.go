@@ -1,12 +1,17 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package backend_test
 
 import (
 	"testing"
 
-	"github.com/corestoreio/pkg/backend"
-	"github.com/corestoreio/pkg/config/cfgmock"
-	"github.com/corestoreio/pkg/config/cfgmodel"
-	"github.com/corestoreio/pkg/config/source"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/backend"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/config/cfgmock"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/config/cfgmodel"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/config/source"
 )
 
 // benchmarkGlobalStruct trick the compiler to not optimize anything

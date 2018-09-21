@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package binlogsync
 
 import (
@@ -5,8 +10,9 @@ import (
 
 	"github.com/corestoreio/errors"
 	"github.com/corestoreio/log"
-	"github.com/corestoreio/pkg/sql/ddl"
 	"golang.org/x/sync/errgroup"
+
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/sql/ddl"
 )
 
 // TODO(CyS) investigate what would happen in case of transaction? should all

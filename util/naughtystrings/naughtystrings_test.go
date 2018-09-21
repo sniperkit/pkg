@@ -1,6 +1,13 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package naughtystrings
 
-import "testing"
+import (
+	"testing"
+)
 
 func TestNaughtyStrings(t *testing.T) {
 	for _, test := range [][]string{Base64Encoded(), Unencoded()} {

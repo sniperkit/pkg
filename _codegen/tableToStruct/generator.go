@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-2017, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -26,10 +31,10 @@ import (
 	"sync"
 	"text/template"
 
-	"github.com/corestoreio/pkg/codegen"
-	"github.com/corestoreio/pkg/codegen/tableToStruct/tpl"
-	"github.com/corestoreio/pkg/storage/dbr"
-	"github.com/corestoreio/pkg/util/slices"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/codegen"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/codegen/tableToStruct/tpl"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/storage/dbr"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/slices"
 )
 
 type generator struct {
@@ -176,8 +181,8 @@ func (g *generator) runHeader() {
 		HasTypeCodeValueTables bool
 		Tables                 []OneTable
 	}{
-		Package: g.tts.Package,
-		Tick:    "`",
+		Package:                g.tts.Package,
+		Tick:                   "`",
 		HasTypeCodeValueTables: len(g.eavValueTables) > 0,
 	}
 

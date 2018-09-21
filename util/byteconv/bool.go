@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-2017, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,7 +19,9 @@
 
 package byteconv
 
-import "strconv"
+import (
+	"strconv"
+)
 
 var bools = map[string]bool{
 	"1": true, "t": true, "T": true, "true": true, "TRUE": true, "True": true, "yes": true, "YES": true,

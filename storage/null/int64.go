@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-present, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -21,7 +26,8 @@ import (
 	"strconv"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/util/byteconv"
+
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/byteconv"
 )
 
 // TODO(cys): Remove GobEncoder, GobDecoder, MarshalJSON, UnmarshalJSON in Go 2.

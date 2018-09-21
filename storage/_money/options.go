@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-2016, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,7 +19,9 @@
 
 package money
 
-import "math"
+import (
+	"math"
+)
 
 // WithPrecision sets the precision. 2 decimal places => 10^2; 3 decimal places
 // => 10^3; x decimal places => 10^x. If not a decimal power then falls back to

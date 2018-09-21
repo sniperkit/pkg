@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-2016, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -26,9 +31,9 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/corestoreio/pkg/sql/ddl"
-	"github.com/corestoreio/pkg/sql/myreplicator"
-	"github.com/corestoreio/pkg/util/conv"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/sql/ddl"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/sql/myreplicator"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/conv"
 )
 
 func main() {

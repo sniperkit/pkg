@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-present, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -15,15 +20,15 @@
 package csjwt_test
 
 import (
-	"testing"
-
 	"bytes"
+	"testing"
 
 	"github.com/corestoreio/log"
 	"github.com/corestoreio/log/logw"
-	"github.com/corestoreio/pkg/util/assert"
-	"github.com/corestoreio/pkg/util/csjwt"
-	"github.com/corestoreio/pkg/util/csjwt/jwtclaim"
+
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/assert"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/csjwt"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/csjwt/jwtclaim"
 )
 
 func TestTokenAlg(t *testing.T) {

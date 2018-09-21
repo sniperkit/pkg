@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright © 2014 Steve Francia <spf@spf13.com>.
 //
 // Use of this source code is governed by an MIT-style
@@ -13,7 +18,8 @@ import (
 	"time"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/util/assert"
+
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/assert"
 )
 
 func TestToInt(t *testing.T) {

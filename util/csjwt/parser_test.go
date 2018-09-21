@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package csjwt_test
 
 import (
@@ -10,10 +15,11 @@ import (
 	"time"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/util/assert"
-	"github.com/corestoreio/pkg/util/conv"
-	"github.com/corestoreio/pkg/util/csjwt"
-	"github.com/corestoreio/pkg/util/csjwt/jwtclaim"
+
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/assert"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/conv"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/csjwt"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/csjwt/jwtclaim"
 )
 
 var (

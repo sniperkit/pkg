@@ -1,6 +1,13 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package jwtclaim
 
-import "github.com/corestoreio/errors"
+import (
+	"github.com/corestoreio/errors"
+)
 
 //go:generate ffjson $GOFILE
 

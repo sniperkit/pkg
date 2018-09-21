@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-present, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -20,9 +25,10 @@ import (
 	"io"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/config"
-	"github.com/corestoreio/pkg/store/scope"
 	"gopkg.in/yaml.v2"
+
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/config"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/store/scope"
 )
 
 // WithLoadYAML reads the configuration values from a YAML file and applies it

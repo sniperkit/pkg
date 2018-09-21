@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-2016, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -22,11 +27,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/corestoreio/pkg/net/mw"
-	"github.com/corestoreio/pkg/net/request"
-	"github.com/corestoreio/pkg/sync/bgwork"
-	"github.com/corestoreio/pkg/util/cstesting"
 	"github.com/stretchr/testify/assert"
+
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/net/mw"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/net/request"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/sync/bgwork"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/cstesting"
 )
 
 var _ mw.Middleware = (&request.ID{}).With() // test if function signature matches

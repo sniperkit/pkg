@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-present, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -90,7 +95,6 @@ func TestMakeDecimalFloat64(t *testing.T) {
 
 func TestDecimal_GoString(t *testing.T) {
 
-
 	tests := []struct {
 		have Decimal
 		want string
@@ -125,7 +129,6 @@ func TestDecimal_GoString(t *testing.T) {
 }
 
 func TestDecimal_String(t *testing.T) {
-
 
 	tests := []struct {
 		have Decimal
@@ -191,7 +194,6 @@ func TestDecimal_String(t *testing.T) {
 
 func TestDecimal_MarshalJSON(t *testing.T) {
 
-
 	runner := func(d Decimal, want string) func(*testing.T) {
 		return func(t *testing.T) {
 			raw, err := d.MarshalJSON()
@@ -256,7 +258,6 @@ func TestDecimal_MarshalJSON(t *testing.T) {
 
 func TestDecimal_MarshalText(t *testing.T) {
 
-
 	runner := func(d Decimal, want string) func(*testing.T) {
 		return func(t *testing.T) {
 			raw, err := d.MarshalText()
@@ -302,7 +303,6 @@ func TestDecimal_MarshalText(t *testing.T) {
 
 func TestDecimal_GobEncode(t *testing.T) {
 
-
 	runner := func(d Decimal, want []byte) func(*testing.T) {
 		return func(t *testing.T) {
 			raw, err := d.GobEncode()
@@ -347,7 +347,6 @@ func TestDecimal_GobEncode(t *testing.T) {
 
 func TestDecimal_Int64(t *testing.T) {
 
-
 	t.Run("1234", func(t *testing.T) {
 		d := Decimal{
 			Valid:     true,
@@ -383,7 +382,6 @@ func TestDecimal_Int64(t *testing.T) {
 }
 
 func TestDecimal_Float64(t *testing.T) {
-
 
 	t.Run("0.0", func(t *testing.T) {
 		d := Decimal{
@@ -424,7 +422,6 @@ func TestDecimal_Float64(t *testing.T) {
 }
 
 func TestDecimal_Scan(t *testing.T) {
-
 
 	t.Run("nil", func(t *testing.T) {
 		var nv Decimal

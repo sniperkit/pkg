@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-2017, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -20,9 +25,9 @@ const Header = `
 import (
 	"sort"
     {{ if .HasTypeCodeValueTables }}
-	"github.com/corestoreio/pkg/eav"{{end}}
-	"github.com/corestoreio/pkg/storage/csdb"
-	"github.com/corestoreio/pkg/storage/dbr"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/eav"{{end}}
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/storage/csdb"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/storage/dbr"
 )
 
 // TableIndex... is the index to a table. These constants are guaranteed

@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-present, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -14,7 +19,9 @@
 
 package bgwork
 
-import "sync"
+import (
+	"sync"
+)
 
 // Wait is a better pattern around using sync.WaitGroup. For returning errors
 // while working on a subtask of a common task, consider using package

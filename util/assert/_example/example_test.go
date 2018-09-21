@@ -1,9 +1,14 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 package example
 
 import (
-	"github.com/corestoreio/pkg/util/assert"
-
 	"testing"
+
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/assert"
 )
 
 type Person struct {

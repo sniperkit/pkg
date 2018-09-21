@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright (c) 2014 Olivier Poitrey <rs@dailymotion.com>
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -24,7 +29,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/corestoreio/pkg/config/cfgmock"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/config/cfgmock"
 )
 
 func testHandler(fa interface {

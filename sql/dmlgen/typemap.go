@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-2017, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -21,8 +26,9 @@ import (
 	"unicode/utf8"
 
 	"github.com/corestoreio/errors"
-	"github.com/corestoreio/pkg/sql/ddl"
-	"github.com/corestoreio/pkg/util/strs"
+
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/sql/ddl"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/strs"
 )
 
 // TypeDef used in variable `MysqlTypeToGo` to map a MySQL/MariaDB type to its

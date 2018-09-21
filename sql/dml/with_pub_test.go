@@ -1,3 +1,8 @@
+/*
+Sniperkit-Bot
+- Status: analyzed
+*/
+
 // Copyright 2015-present, Cyrill @ Schumacher.fm and the CoreStore contributors
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -21,9 +26,10 @@ import (
 	"github.com/DATA-DOG/go-sqlmock"
 	"github.com/corestoreio/errors"
 	"github.com/corestoreio/log"
-	"github.com/corestoreio/pkg/sql/dml"
-	"github.com/corestoreio/pkg/sql/dmltest"
-	"github.com/corestoreio/pkg/util/assert"
+
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/sql/dml"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/sql/dmltest"
+	"github.com/sniperkit/snk.fork.corestoreio-pkg/util/assert"
 )
 
 func TestWith_Query(t *testing.T) {
